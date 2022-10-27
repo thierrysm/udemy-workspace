@@ -82,11 +82,8 @@ public class Order {
             sb.append("\n" + c);
             sum += c.subTotal();
         }
-        //sb.append("Total price: $");
-        //sb.append(String.format("%.2f", total()));
         sb.append("Total price: ");
         sb.append(String.format("%.2f", sum));
         return  sb.toString();
     }
-
 }
